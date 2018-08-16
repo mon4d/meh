@@ -58,10 +58,6 @@
 #define	MATERIAL_SHADINGMODEL_UNLIT						0
 #endif
 
-#ifndef MATERIAL_SHADINGMODEL_TOON
-#define MATERIAL_SHADINGMODEL_TOON                        0
-#endif
-
 #ifndef HAS_PRIMITIVE_UNIFORM_BUFFER
 #define	HAS_PRIMITIVE_UNIFORM_BUFFER					0
 #endif
@@ -122,6 +118,10 @@
 
 #ifndef CLEAR_COAT_BOTTOM_NORMAL
 #define CLEAR_COAT_BOTTOM_NORMAL						0
+#endif
+
+#ifndef IRIS_NORMAL
+#define IRIS_NORMAL										0
 #endif
 
 #ifndef TEX_COORD_SCALE_ANALYSIS
